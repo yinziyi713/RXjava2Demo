@@ -30,7 +30,7 @@ public class StandardRxJavaActivity extends RxOperatorBaseActivity {
             public void subscribe(@NonNull ObservableEmitter<Integer> e) throws Exception {
                 Log.e(TAG, "Observable emit 1" + "\n");
                 e.onNext(1);
-//                Log.e(TAG, "Observable emit 2" + "\n");
+                Log.e(TAG, "Observable emit 2" + "\n");
                 e.onNext(2);
 //                Log.e(TAG, "Observable emit 3" + "\n");
 //                e.onNext(3);
